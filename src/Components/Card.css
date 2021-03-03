@@ -1,0 +1,18 @@
+.project-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 14px;
+  font-family: futura-pt, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project {
+    width: 400px;
+}

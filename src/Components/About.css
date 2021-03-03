@@ -1,0 +1,33 @@
+#About {
+}
+#about-title {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pfp {
+  margin: 0px 0px 0px 0xp;
+  left: 0%;
+}
+
+#icon-list {
+  text-align: center;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.left {
+  float: left;
+  padding: 0 35px 0 0;
+}
+
+.inline-items{
+  display: inline-block;
+}
