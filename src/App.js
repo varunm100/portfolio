@@ -71,7 +71,7 @@ const Projects = [
 function App() {
   return (
     <div className="content">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <header className="header">
           <a href="index.html" className="header-title">
             Varun Munagala

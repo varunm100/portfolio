@@ -10,7 +10,7 @@ export function About(props) {
       <br />
       <br />
       <div class="left">
-        <img src="https://imgur.com/emSOqKS.png" />
+        <img src="https://imgur.com/emSOqKS.png" alt="pfp" />
         <nav id="icon-list">
           <a href="https://github.com/varunm100" class="icon">
             <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -24,7 +24,7 @@ export function About(props) {
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <a href={Resume} target="_blank" download class="icon">
+          <a href={Resume} target="_blank" rel="noreferrer" download class="icon">
             <FontAwesomeIcon icon={faFile} size="2x" />
           </a>
         </nav>
@@ -44,7 +44,7 @@ export function About(props) {
           <br />
           <br />
           Email: varunm100 AT gmail.com -{" "}
-          <a href={Resume} target="_blank" download>
+          <a href={Resume} target="_blank" rel="noreferrer"download>
             Resume/CV
           </a>
         </p>

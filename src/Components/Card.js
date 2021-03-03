@@ -1,11 +1,11 @@
 import "./Card.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function Card(props) {
   return (
     <div className="project">
       <Link to={props.route} class="project-title">
-        <img src={props.src} className="project-image" />
+        <img src={props.src} className="project-image" alt="project screenshot"/>
         <p>{props.title}</p>
       </Link>
     </div>

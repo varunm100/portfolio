@@ -7,6 +7,7 @@ export function RTXTracer(props) {
       <h1 className="title">Vulkan RTX Ray Tracer</h1>
       <img
         src="https://imgur.com/VT9N1rz.png"
+        alt="screenshot"
         style={{ width: "100%", height: "auto" }}
         class="center"
       />
@@ -67,6 +68,7 @@ export function PathTracer(props) {
       <h1 className="title">Path Tracer</h1>
       <img
         src="https://imgur.com/EdsvBsc.png"
+        alt="screenshot"
         style={{ width: "100%", height: "auto" }}
         class="center"
       />
@@ -112,10 +114,12 @@ export function PathTracer(props) {
         </li>
         <img
           src="https://imgur.com/3T0cYjY.png"
+        alt="screenshot"
           style={{ width: "100%", height: "auto" }}
         />
         <img
           src="https://imgur.com/XATF8dh.png"
+        alt="screenshot"
           style={{ width: "100%", height: "auto" }}
         />
       </ul>
@@ -128,6 +132,7 @@ export function LegendOfZelda(props) {
       <h1 className="title">Legend Of Zelda Clone</h1>
       <img
         src="https://user-images.githubusercontent.com/19439575/34623893-1390d66c-f279-11e7-9d2c-4bc7c80c8168.gif"
+        alt="screenshot"
         style={{ width: "100%", height: "auto" }}
         class="center"
       />
@@ -177,11 +182,13 @@ export function AnimeNetwork(props) {
       </p>
       <img
         src="https://camo.githubusercontent.com/b70bb9ab5f26067e0be71dfb6825d3bc0a856422647cc40fbb1b94505d10ffc8/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3736323830323838363935373539363638322f3830343531313838373538303036393933382f756e6b6e6f776e2e706e67"
+        alt="screenshot"
         style={{ width: "900x", height: "auto" }}
         className="center"
       />
       <img
         src="https://camo.githubusercontent.com/f6074dc8bd04c9dd5171ac407b6f6445101c2b087214bac2c2562ba3c079f5ed/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3736323830323838363935373539363638322f3830343531313935363533343432373635382f756e6b6e6f776e2e706e67"
+        alt="screenshot"
         style={{ width: "900px", height: "auto" }}
         className="center"
       />
@@ -223,6 +230,7 @@ export function TimeSeries(props) {
       </p>
       <img
         src="https://imgur.com/pq4S1QW.png"
+        alt="screenshot"
         style={{ width: "100%", height: "auto" }}
       />
     </div>
@@ -286,10 +294,10 @@ export function VoxelEngine(props) {
           Github
         </a>
       </p>
-      <img src="https://imgur.com/2VJWZmR.png" class="full-width" />
-      <img src="https://imgur.com/ZTnIiCH.png" class="full-width" />
-      <img src="https://imgur.com/73PWdv5.png" class="full-width" />
-      <img src="https://imgur.com/E8e9tyF.png" class="full-width" />
+      <img src="https://imgur.com/2VJWZmR.png" alt="screenshot" class="full-width" />
+      <img src="https://imgur.com/ZTnIiCH.png" alt="screenshot" class="full-width" />
+      <img src="https://imgur.com/73PWdv5.png" alt="screenshot" class="full-width" />
+      <img src="https://imgur.com/E8e9tyF.png" alt="screenshot" class="full-width" />
     </div>
   );
 }
@@ -341,9 +349,9 @@ export function TimeTracker(props) {
           Github
         </a>
       </p>
-      <img src="https://imgur.com/E03lmBl.png" class="full-width" />
-      <img src="https://imgur.com/uQIQsh2.png" class="full-width" />
-      <img src="https://imgur.com/Fl1Ekcy.png" class="full-width" />
+      <img src="https://imgur.com/E03lmBl.png" alt="screenshot" class="full-width" />
+      <img src="https://imgur.com/uQIQsh2.png" alt="screenshot"class="full-width" />
+      <img src="https://imgur.com/Fl1Ekcy.png" alt="screenshot" class="full-width" />
     </div>
   );
 }
@@ -367,7 +375,7 @@ export function ASCIIChess(props) {
           Github
         </a>
       </p>
-      <img src="https://imgur.com/TC6YcQ7.png" class="full-width" />
+      <img src="https://imgur.com/TC6YcQ7.png" alt="screenshot" class="full-width" />
     </div>
   );
 }
