@@ -18,33 +18,33 @@ export function About(props) {
           <a href="mailto:varunm100@gmail.com" class="icon">
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/varun-munagala-367b4a110/"
             class="icon"
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
-          </a>
-          <a href={Resume} target="_blank" rel="noreferrer" download class="icon">
+          </a> */}
+          <a
+            href={Resume}
+            target="_blank"
+            rel="noreferrer"
+            download
+            class="icon"
+          >
             <FontAwesomeIcon icon={faFile} size="2x" />
           </a>
         </nav>
       </div>
       <div>
         <div id="about-title">About</div>
-        <br />
-        <br />
+        {/* <br />
+        <br /> */}
         <p id="about-desc">
-          Hi! I'm currently a junior at Saratoga high-school who has been doing
-          programming for quite some time now as a hobby. I'm passionate about
-          computer graphics and machine learning algorithms. I'm also excited
-          about trying to improve AR/VR technologies. Outside of machine
-          learning and computer graphics, I also love watching Anime and writing
-          in my free-time. I'm currently looking for internship or research
-          opportunities. Feel free to reach out to me at my email.
+          Computers are cool :)
           <br />
           <br />
           Email: varunm100 AT gmail.com -{" "}
-          <a href={Resume} target="_blank" rel="noreferrer"download>
+          <a href={Resume} target="_blank" rel="noreferrer" download>
             Resume/CV
           </a>
         </p>
