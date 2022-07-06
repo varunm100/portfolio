@@ -40,7 +40,8 @@ export function About(props) {
         {/* <br />
         <br /> */}
         <p id="about-desc">
-          Computers are cool :)
+          Freshmen at UW Madison who thinks computers are cool :) Feel free to
+          reach out to my email if you want to chat.
           <br />
           <br />
           Email: varunm100 AT gmail.com -{" "}
